@@ -1,0 +1,20 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+    'clear-both',
+] %}
+<div{{ attributes.addClass(classes) }}>
+    {% for item in content %}
+      <p>
+        <a href="{{item.url}}">{{item.title}}</a>
+      </p>
+    {% endfor %}
+</div>

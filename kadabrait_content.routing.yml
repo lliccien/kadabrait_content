@@ -1,0 +1,8 @@
+
+kadabrait_content.default_controller_showlast10contents:
+  path: '/kadabrait_content/showlast10contents'
+  defaults:
+    _controller: '\Drupal\kadabrait_content\Controller\DefaultController::showLast10Contents'
+    _title: 'List last 10 contents'
+  requirements:
+    _permission: 'kadabrait content'

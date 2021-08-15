@@ -1,0 +1,6 @@
+name: 'kadabrait_content'
+type: module
+description: 'module of test for KadabraIt'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'

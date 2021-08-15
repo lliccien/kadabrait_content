@@ -1,0 +1,34 @@
+uuid: 4d5345e5-14eb-4b32-9d23-a6c9eeff5233
+langcode: es
+status: true
+dependencies:
+  module:
+    - kadabrait_content
+    - user
+  theme:
+    - bartik
+_core:
+  default_config_hash: bUgwGykCleDJl_5CPq1EBsO5uBKSgr6ajAGZcBuuFZ8
+id: lastcontentblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: last_content_block
+settings:
+  id: last_content_block
+  label: 'Last 3 contents'
+  provider: kadabrait_content
+  label_display: visible
+  quantity:
+    value: 3
+    input: '3'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

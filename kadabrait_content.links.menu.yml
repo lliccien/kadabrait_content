@@ -1,0 +1,6 @@
+kadabrait_content.lastconstent:
+  title: Show last 10 contents.
+  description: 'Show last 10 contents for KadabraIt content module'
+  route_name: kadabrait_content.default_controller_showlast10contents
+  menu_name: main
+  weight: 1

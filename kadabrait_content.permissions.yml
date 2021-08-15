@@ -1,0 +1,4 @@
+kadabrait content:
+  title: 'Kadabrait content'
+  description: 'Allow acces to KadabraIt content'
+  restrict access: true

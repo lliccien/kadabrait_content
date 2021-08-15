@@ -1,0 +1,4 @@
+services:
+  kadabrait_content.default:
+    class: Drupal\kadabrait_content\Service\KadabreitContentService
+    arguments: []
